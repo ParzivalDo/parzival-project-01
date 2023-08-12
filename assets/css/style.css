@@ -18,6 +18,18 @@ body {
 
 
 /* Common */
+.heading {
+    color: #171100;
+    font-size: 5.8rem;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: -0.02px;
+    font-family: var(--font-heading);
+} 
+.heading.lv1 {
+    font-size: 5.8rem;
+    line-height: 1.17;
+}
 
 .btn {
     display: inline-block;
@@ -108,7 +120,7 @@ font-size: 16px;
 /* Hero */
 
 .hero {
-    padding-top: 56px;
+    padding: 56px 0 65px;
     background: #FFFCF4;
 }
 
@@ -127,6 +139,7 @@ font-size: 16px;
     height: 685px;
     object-fit: cover;
     border-radius: 20px;
+    display: block;
 }
 
 .hero-summary {
@@ -134,7 +147,7 @@ font-size: 16px;
     right: 0;
     bottom: 48px;
     width: 270px;
-    padding: 28px 24px;
+    padding: 24px;
     background: #FFFFFF;
     box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.05);
     border-radius:12px;
@@ -142,6 +155,7 @@ font-size: 16px;
 
 .hero-summary .item {
     display: flex;
+    align-items: center;
 }
 
 .hero-summary .item + .item {
@@ -190,14 +204,6 @@ font-size: 16px;
     padding: 64px 0 0 130px;
 }
 
-.hero .heading {
-    color: #171100;
-    font-size: 5.8rem;
-    font-weight: 700;
-    line-height: 1.17;
-    letter-spacing: -0.02px;
-    font-family: var(--font-heading);
-} 
 
 .hero .desc {
     color: #5F5B53;
@@ -258,4 +264,11 @@ font-size: 16px;
     font-size: 4.4rem;
     line-height: 1.23;
     color: #171100;
+}
+
+/* popular */
+
+.popular {
+    padding: 65px 0;
+    margin-top: 135px;
 }
