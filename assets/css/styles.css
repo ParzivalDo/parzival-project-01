@@ -397,7 +397,7 @@ font-size: 16px;
 .feedback {
     margin-top: 135px;
     padding: 96px 0;
-    background: #2e2100;
+    background-color: #2e2100;
 }
 
 .feedback-list {
@@ -463,4 +463,10 @@ font-size: 16px;
     font-size: 2.6rem;
     line-height: 1.54;
     color: #ffffff;
+}
+
+/* Features */
+.features {
+    margin-top: 135px;
+    padding: 65px 0;
 }
